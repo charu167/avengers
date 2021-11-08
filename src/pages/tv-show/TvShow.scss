@@ -1,0 +1,80 @@
+.tv-show {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 8px;
+  padding-top: 15px;
+  background: url("../../assets/polygon-scatter-haikei.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .loading {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .img {
+    img {
+      height: 550px;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    .name {
+      font-size: 40px;
+      font-weight: bold;
+      font-variant: small-caps;
+      background-color: rgba(184, 169, 169, 0.151);
+      padding: 0px 40px;
+      border-radius: 10px;
+      color: rgba(245, 245, 245, 0.74);
+    }
+
+    .premeired {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+    }
+    .rating {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+    }
+    .runtime {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+    }
+    .type {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+    }
+    .language {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+    }
+    .genres {
+      display: flex;
+      justify-content: space-between;
+      font-size: 25px;
+      color: rgba(245, 245, 245, 0.418);
+
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
